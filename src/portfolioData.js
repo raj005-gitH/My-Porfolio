@@ -14,6 +14,23 @@ export const portfolioData = {
     leetcode: "https://leetcode.com/u/raj005-leetC", // Modify to your leetcode profile
     dsaRepo: "https://github.com/rajthakur/DSA-Practice", // Modify to your DSA repository
   },
+  certificates: {
+    title: "Certifications",
+    categories: {
+      apnacollegewebdev: {
+        title: "Full Stack Web Development",
+        url: "https://drive.google.com/file/d/1J0EWf7OD8AbhvdKXyt2wHpuPNVHH5VS2/view?usp=sharing",
+      },
+      apnacollegedsa: {
+        title: "Data Structures and Algorithms",
+        url: "https://drive.google.com/file/d/1jxs6vLp_6OuzwpS8JA32awKmh1hMA5D4/view?usp=sharing",
+      },
+      gfgcs: {
+        title: "Computer Science Fundamentals",
+        url: "https://drive.google.com/file/d/1Qc8OUcu4IYML4-8B8Z8xdvUG85rdDiM2/view?usp=sharing",
+      },
+    },
+  },
   about: {
     description:
       "I’m a Computer Science student focused on software engineering, full-stack development, and problem solving. I enjoy turning ideas into real products, building backend systems, working with modern web technologies, and continuously improving my DSA and system design skills.",
@@ -243,16 +260,16 @@ export const portfolioData = {
     ],
     // Statistics are configurable in one place here
     stats: [
-      { label: "Problems Solved", value: "250+" },
-      { label: "LeetCode Contest Rating", value: "700+" }, // Editable stats
-      { label: "Coding Accuracy", value: "85%" },
+      { label: "Problems Solved", value: "300+" },
+      { label: "LeetCode Contest Rating", value: "1400+" }, // Editable stats
+      { label: "Coding Accuracy", value: "65%" },
     ],
   },
   experience: {
     title: "Project Leadership",
     items: [
       {
-        title: "Final Year Project — Hukoom",
+        title: "Final Year Project — Voiceflow AI",
         role: "Team Lead / Developer",
         duration: "2025 - 2026",
         highlights: [
@@ -275,17 +292,17 @@ export const portfolioData = {
     {
       title: "LeetCode Badges",
       description:
-        "Earned 365- Days Badge and solved over 250+ DSA problems in Java.",
+        "Earned 365- Days Badge and solved over 300+ DSA problems in Java.",
     },
-    {
-      title: "Smart India Hackathon",
-      description:
-        "Participated and contributed to building a prototype solution for service discovery.",
-    },
-    {
-      title: "Google Cloud Skill Badges",
-      description:
-        "Completed labs on cloud fundamentals, IAM, and VM configurations.",
-    },
+    // {
+    //   title: "Smart India Hackathon",
+    //   description:
+    //     "Participated and contributed to building a prototype solution for service discovery.",
+    // },
+    // {
+    //   title: "Google Cloud Skill Badges",
+    //   description:
+    //     "Completed labs on cloud fundamentals, IAM, and VM configurations.",
+    // },
   ],
 };

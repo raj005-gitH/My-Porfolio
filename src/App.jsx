@@ -11,6 +11,7 @@ import Education from './components/Education';
 import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Certificates from './components/Certificates';
 
 function App() {
   useEffect(() => {
@@ -58,6 +59,10 @@ function App() {
         
         <div className="reveal">
           <DSA />
+        </div>
+
+        <div className="reveal">
+          <Certificates />
         </div>
         
         <div className="reveal">
